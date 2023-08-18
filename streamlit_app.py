@@ -29,4 +29,4 @@ fruits_to_show = my_fruit_list.loc[selected_fruits]
 
 # display the table on streamlit web(app) page
 # streamlit.dataframe(my_fruit_list)
-streamlist.dataframe(fruits_to_show)
+streamlit.dataframe(fruits_to_show)
