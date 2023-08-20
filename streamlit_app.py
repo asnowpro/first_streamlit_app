@@ -5,7 +5,7 @@ streamlit.text("It is wonderful!")
 streamlit.text("Make a great day!")
 
 
-streamlit.header('Breakfast Menu')
+streamlit.header('Breakfast Favorites')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
 streamlit.text('🥗 Kale, Spinach & Rocket Smoothie')
 streamlit.text('🐔 Hard-Boiled Free-Range Egg')
@@ -20,6 +20,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 # include drop down list to choose fruit 
 # streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 
+streamlit.header('Build Your Own Fruit Smoothie')
 # put a pick list 
 # streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 
